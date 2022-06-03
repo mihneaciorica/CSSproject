@@ -1,3 +1,15 @@
+/* primul h1 ca simplu exemplu de selector */
 #firstH1 {
     font-size : 20px;
+}
+/* By default navbar-brand in Bootrap are un padding de 15px 15px dar logoul e prea mare asa ca i'll override it  */
+
+.navbar-brand {
+    padding: 0px 15px !important;
+}
+.navbar-brand>img {
+    float:left;
+    height:45px;
+    padding: 0px;
+
 }
